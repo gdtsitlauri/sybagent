@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "SybAgent: Sybil and eclipse attacks on open AI-agent networks, and semantic-blind anchors as a defense"
+type: software
+authors:
+  - given-names: "George David"
+    family-names: "Tsitlauri"
+    affiliation: "Department of Informatics and Telecommunications, University of Thessaly, Greece"
+date-released: 2026-10-09
+license: MIT
+repository-code: "https://github.com/gdtsitlauri/sybagent"
+abstract: >-
+  When AI agents choose collaborators by reading self-advertised descriptions, a few Sybil identities can eclipse
+  a target agent independently of network size. This repository contains a simulator, proofs and experiments for
+  the attack and for semantic-blind anchors, a defense with a provable eclipse bound and second-opinion auditing,
+  plus an analysis of real ERC-8004 reputation data (Ethereum, Base) and of the Moltbook agent network.
+keywords: [AI agents, Sybil attack, eclipse attack, multi-agent systems, graph theory, ERC-8004, security]

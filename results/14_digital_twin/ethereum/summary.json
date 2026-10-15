@@ -1,0 +1,15 @@
+{
+  "chain": "ethereum",
+  "start": 1769682671.0,
+  "end": 1791617819.0,
+  "weeks": 36,
+  "feedback": 21333,
+  "registrations": 52557,
+  "pairs": 457,
+  "takeovers": 30,
+  "auc_low_cost": 0.27373145979703356,
+  "auc_activity": 0.8781030444964871,
+  "auc_agents": 0.6601873536299766,
+  "lr_stat_cost_given_activity": 30.86100454939543,
+  "lr_p_value": 2.771858608537169e-08
+}

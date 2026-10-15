@@ -1,0 +1,26 @@
+seed: 0
+rounds: 25
+tasks_per_agent_per_round: 1
+output_dir: results/llm_small_similarity
+
+network:
+  n_honest: 20
+  capability_dim: 16
+  max_neighbors: 4
+  candidates_per_query: 8
+  topk_select: 2
+
+adversary:
+  enabled: true
+  n_sybils: 10
+  attractiveness: 0.5
+  service_quality: 0.85
+  n_targets: 3
+
+selection:
+  kind: similarity
+  experience_weight: 0.0
+
+defense:
+  kind: none
+  params: {}

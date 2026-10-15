@@ -1,0 +1,15 @@
+{
+  "chain": "base",
+  "start": 1770135671.0,
+  "end": 1791621643.0,
+  "weeks": 35,
+  "feedback": 549330,
+  "registrations": 99185,
+  "pairs": 1878,
+  "takeovers": 94,
+  "auc_low_cost": 0.42575255223738195,
+  "auc_activity": 0.7393974811563782,
+  "auc_agents": 0.6173581957828451,
+  "lr_stat_cost_given_activity": 0.8339460641420828,
+  "lr_p_value": 0.3611339596816423
+}

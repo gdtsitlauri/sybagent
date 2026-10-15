@@ -1,0 +1,16 @@
+{
+  "re_report_same_epoch_rejected": true,
+  "non_seat_vote_rejected": true,
+  "double_vote_rejected": true,
+  "close_while_open_without_quorum_rejected": true,
+  "close_after_window_ok": true,
+  "below_quorum_not_blocked": true,
+  "inconclusive_no_strike": true,
+  "reporter_strikes_after_clear": 1,
+  "muted_after_two_clears": true,
+  "votes_accepted_within_5_block_window": 5,
+  "quorum_close_ok": true,
+  "quorum_blocks": true,
+  "draws_checked": 200,
+  "draws_with_accused_or_duplicates": 0
+}

@@ -1,0 +1,13 @@
+,moltbook
+posts,2615098.0
+comments,1213007.0
+interactions_non_self,1035100.0
+agents_in_graph,34017.0
+edges,438740.0
+top1pct_agents_interaction_share,0.46894358033040284
+agents_single_partner_frac,0.2086015815621601
+components,66.0
+giant_component_frac,0.9951788811476615
+giant_spectral_gap,0.025449720152725397
+giant_mixing_time_est,409.8191586436321
+fast_mixing_reference_logn,10.42978290070581

@@ -1,0 +1,84 @@
+{
+  "base": {
+    "rounds": 100,
+    "network": {
+      "n_honest": 200
+    },
+    "adversary": {
+      "n_targets": 5,
+      "attractiveness": 0.5,
+      "service_quality": 0.85,
+      "adaptive_cards": true,
+      "coordinated_lies": true,
+      "answer_wrong_prob": 1.0
+    },
+    "selection": {
+      "kind": "reputation"
+    },
+    "defense": {
+      "kind": "shared",
+      "params": {
+        "n_anchors": 3,
+        "audit_prob": 0.3,
+        "audit_flag": 3,
+        "audit_rule": "unanimous"
+      }
+    }
+  },
+  "sybils": [
+    25,
+    50,
+    100,
+    200
+  ],
+  "modes": [
+    "local",
+    "naive",
+    "threshold",
+    "alerts",
+    "committee",
+    "alerts+committee"
+  ],
+  "attackers": {
+    "lie1.0": {
+      "policy": "fixed",
+      "answer_wrong_prob": 1.0
+    },
+    "lie0.3": {
+      "policy": "fixed",
+      "answer_wrong_prob": 0.3
+    },
+    "budget": {
+      "policy": "budget"
+    }
+  },
+  "false_reports": [
+    0,
+    1
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "quorums": [
+    0.5,
+    0.6666666666666666,
+    0.8,
+    0.9
+  ],
+  "committees": [
+    15,
+    45
+  ],
+  "anchors": [
+    3,
+    6
+  ],
+  "gammas": [
+    0.0,
+    0.5,
+    0.9
+  ],
+  "episodes": 8
+}

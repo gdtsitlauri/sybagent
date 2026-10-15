@@ -1,0 +1,6 @@
+,mean,mean,mean,mean,mean,mean,mean,mean,std,std,std,std,std,std,std,std
+,tail_honest_mean_sybil_share,tail_honest_mean_sybil_share,tail_mean_quality,tail_mean_quality,tail_target_min_honest_neighbors,tail_target_min_honest_neighbors,tail_target_sybil_share,tail_target_sybil_share,tail_honest_mean_sybil_share,tail_honest_mean_sybil_share,tail_mean_quality,tail_mean_quality,tail_target_min_honest_neighbors,tail_target_min_honest_neighbors,tail_target_sybil_share,tail_target_sybil_share
+defense.kind,none,proposed,none,proposed,none,proposed,none,proposed,none,proposed,none,proposed,none,proposed,none,proposed
+adversary.adaptive_cards,,,,,,,,,,,,,,,,
+False,0.502,0.4,0.865,0.86,1.017,1.683,0.551,0.417,0.037,0.014,0.004,0.004,0.448,0.236,0.069,0.037
+True,1.0,0.662,0.851,0.845,0.0,0.667,1.0,0.667,0.0,0.025,0.001,0.001,0.0,0.577,0.0,0.083

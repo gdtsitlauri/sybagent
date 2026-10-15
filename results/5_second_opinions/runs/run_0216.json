@@ -1,0 +1,53 @@
+{
+  "seed": 1,
+  "rounds": 100,
+  "tasks_per_agent_per_round": 1,
+  "network": {
+    "n_honest": 200,
+    "capability_dim": 16,
+    "max_neighbors": 8,
+    "candidates_per_query": 20,
+    "topk_select": 3,
+    "capability_noise": 0.1,
+    "honest_answer_correct": 0.95,
+    "task_noise": 0.3,
+    "prune_below": 0.3,
+    "prune_min_obs": 2
+  },
+  "adversary": {
+    "enabled": true,
+    "n_sybils": 200,
+    "attractiveness": 0.5,
+    "n_targets": 5,
+    "collusive_reviews": true,
+    "join_round": 0,
+    "strategy": "targeted",
+    "service_quality": 0.85,
+    "reviews_per_sybil": 3,
+    "switch_round": -1,
+    "post_switch_quality": 0.1,
+    "answer_wrong_prob": 0.6,
+    "registry_bias": 0.0,
+    "card_jitter": 0.1,
+    "adaptive_cards": true,
+    "adaptive_noise": 0.05
+  },
+  "selection": {
+    "kind": "reputation",
+    "temperature": 0.05,
+    "reputation_weight": 0.3,
+    "experience_weight": 0.5,
+    "llm_model": "qwen2.5:3b",
+    "llm_url": "http://localhost:11434",
+    "llm_timeout_s": 60.0
+  },
+  "defense": {
+    "kind": "none",
+    "params": {
+      "n_anchors": 3,
+      "audit_flag": 3,
+      "audit_prob": 1.0
+    }
+  },
+  "output_dir": "results"
+}

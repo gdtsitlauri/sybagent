@@ -1,0 +1,26 @@
+base:
+  rounds: 100
+  network:
+    n_honest: 200
+    answer_model: skill
+  adversary:
+    enabled: true
+    n_sybils: 200
+    n_targets: 5
+    attractiveness: 0.5
+    service_quality: 0.85
+    adaptive_cards: true
+  selection:
+    kind: reputation
+  defense:
+    kind: proposed
+    params:
+      n_anchors: 3
+      audit_prob: 0.0
+
+grid:
+  adversary.coordinated_lies: [false, true]
+  adversary.answer_wrong_prob: [0.3, 1.0]
+  defense.kind: [none, proposed]
+
+seeds: [0, 1, 2, 3, 4]

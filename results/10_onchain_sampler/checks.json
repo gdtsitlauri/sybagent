@@ -1,0 +1,22 @@
+{
+  "solc": "0.8.24",
+  "optimizer_runs": 200,
+  "uniformity": {
+    "registry_size": 100,
+    "anchors": 3,
+    "requests": 2000,
+    "reference_mismatches": 0,
+    "chi2": 84.111,
+    "dof": 98,
+    "p_value": 0.8401346555292528,
+    "min_count": 46,
+    "max_count": 76,
+    "expected": 60.60606060606061
+  },
+  "frontrun_reroll": {
+    "trials": 200,
+    "late_identities_per_trial": 10000,
+    "anchors_from_late_identities": 0,
+    "second_request_while_pending_rejected": true
+  }
+}

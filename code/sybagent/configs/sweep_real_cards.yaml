@@ -1,0 +1,23 @@
+base:
+  rounds: 100
+  network:
+    n_honest: 200
+    capability_dim: 384
+    real_cards: data/real_cards/bundle.npz
+  adversary:
+    enabled: true
+    n_targets: 5
+    service_quality: 0.85
+    adaptive_noise: 0.02
+  selection:
+    kind: reputation
+  defense:
+    params:
+      n_anchors: 3
+
+grid:
+  adversary.n_sybils: [10, 50, 200]
+  adversary.adaptive_cards: [false, true]
+  defense.kind: [none, proposed]
+
+seeds: [0, 1, 2, 3, 4]

@@ -1,0 +1,77 @@
+{
+  "honest_error_bound": 0.47222222222222227,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "attackers": {
+    "lie1.0": {
+      "policy": "fixed",
+      "answer_wrong_prob": 1.0
+    },
+    "lie0.3": {
+      "policy": "fixed",
+      "answer_wrong_prob": 0.3
+    }
+  },
+  "defenses": {
+    "none": {
+      "kind": "none"
+    },
+    "anchors": {
+      "kind": "shared",
+      "params": {
+        "share": "local",
+        "audit_prob": 0.0
+      }
+    },
+    "second_opinions_u0.3": {
+      "kind": "shared",
+      "params": {
+        "share": "local",
+        "audit_prob": 0.3
+      }
+    },
+    "second_opinions_u1": {
+      "kind": "shared",
+      "params": {
+        "share": "local",
+        "audit_prob": 1.0
+      }
+    },
+    "committees": {
+      "kind": "shared",
+      "params": {
+        "share": "alerts+committee",
+        "audit_prob": 0.3,
+        "evidence_mode": "transcripts",
+        "pool_evidence": true,
+        "committee_capacity": 10,
+        "honest_error": 0.47222222222222227
+      }
+    },
+    "verify_0.05": {
+      "kind": "shared",
+      "params": {
+        "share": "local",
+        "audit_prob": 0.3,
+        "verify_prob": 0.05,
+        "proof_ban": true,
+        "verified_rep": true,
+        "honest_error": 0.47222222222222227
+      }
+    },
+    "verify_0.2": {
+      "kind": "shared",
+      "params": {
+        "share": "local",
+        "audit_prob": 0.3,
+        "verify_prob": 0.2,
+        "proof_ban": true,
+        "verified_rep": true,
+        "honest_error": 0.47222222222222227
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "questions": 360,
+  "subjects": [
+    "astronomy",
+    "college_biology",
+    "computer_security",
+    "econometrics",
+    "high_school_mathematics",
+    "high_school_physics",
+    "marketing",
+    "nutrition",
+    "professional_law",
+    "sociology",
+    "us_foreign_policy",
+    "world_religions"
+  ],
+  "expert_accuracy": 0.6361111111111111,
+  "generic_accuracy": 0.5777777777777777,
+  "expert_unparsed": 13,
+  "generic_unparsed": 12
+}

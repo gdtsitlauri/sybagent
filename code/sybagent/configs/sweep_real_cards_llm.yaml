@@ -1,0 +1,30 @@
+base:
+  rounds: 25
+  network:
+    n_honest: 20
+    capability_dim: 384
+    real_cards: data/real_cards/bundle.npz
+    max_neighbors: 4
+    candidates_per_query: 8
+    topk_select: 2
+  adversary:
+    enabled: true
+    n_sybils: 10
+    service_quality: 0.85
+    n_targets: 3
+    adaptive_noise: 0.02
+  selection:
+    kind: llm
+    llm_model: qwen2.5:3b
+    llm_url: http://localhost:11434
+    llm_timeout_s: 180.0
+  defense:
+    kind: none
+    params:
+      n_anchors: 2
+
+grid:
+  adversary.adaptive_cards: [true, false]
+  defense.kind: [none, proposed]
+
+seeds: [0, 1, 2]

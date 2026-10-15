@@ -1,0 +1,50 @@
+{
+  "sybils": [
+    50,
+    200,
+    400
+  ],
+  "verify": [
+    0.0,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "modes": {
+    "correct": {
+      "proof_ban": false,
+      "verified_rep": false
+    },
+    "ban": {
+      "proof_ban": true,
+      "verified_rep": false
+    },
+    "ban+rep": {
+      "proof_ban": true,
+      "verified_rep": true
+    }
+  },
+  "attackers": {
+    "lie1.0": {
+      "policy": "fixed",
+      "answer_wrong_prob": 1.0
+    },
+    "lie0.3": {
+      "policy": "fixed",
+      "answer_wrong_prob": 0.3
+    },
+    "budget": {
+      "policy": "budget"
+    },
+    "sleeper": {
+      "policy": "sleeper",
+      "sleeper_round": 50
+    }
+  },
+  "seeds": [
+    0,
+    1,
+    2
+  ]
+}

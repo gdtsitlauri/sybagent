@@ -1,0 +1,25 @@
+base:
+  rounds: 150
+  network:
+    n_honest: 200
+  adversary:
+    enabled: true
+    n_targets: 5
+    attractiveness: 0.5
+    service_quality: 0.85
+    adaptive_cards: true
+    switch_round: 75
+    post_switch_quality: 0.1
+  selection:
+    kind: reputation
+  defense:
+    kind: proposed
+    params:
+      n_anchors: 3
+
+grid:
+  adversary.n_sybils: [50, 200, 800, 1600]
+  adversary.registry_bias: [0.0, 0.25, 0.5]
+  defense.kind: [none, proposed]
+
+seeds: [0, 1, 2, 3, 4]

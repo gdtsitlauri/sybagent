@@ -1,0 +1,28 @@
+{
+  "ethereum": {
+    "feedback": 21333,
+    "pairs": 3387,
+    "raters": 690,
+    "agents": 2377,
+    "density_significant_blocks": 1,
+    "density_agents_in_significant_blocks": 72,
+    "density_agents_in_significant_blocks_frac": 0.030290281867900715,
+    "weighted_significant_blocks": 2,
+    "weighted_agents_in_significant_blocks": 1295,
+    "weighted_agents_in_significant_blocks_frac": 0.5448043752629365,
+    "exact_max_density": 3.076916217803955,
+    "greedy_max_density": 3.076923076923077
+  },
+  "base": {
+    "feedback": 549206,
+    "pairs": 68843,
+    "raters": 13503,
+    "agents": 29882,
+    "density_significant_blocks": 5,
+    "density_agents_in_significant_blocks": 1830,
+    "density_agents_in_significant_blocks_frac": 0.0612408807978047,
+    "weighted_significant_blocks": 5,
+    "weighted_agents_in_significant_blocks": 4855,
+    "weighted_agents_in_significant_blocks_frac": 0.1624723914061977
+  }
+}

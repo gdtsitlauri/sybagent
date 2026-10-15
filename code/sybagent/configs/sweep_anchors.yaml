@@ -1,0 +1,20 @@
+﻿base:
+  rounds: 100
+  network:
+    n_honest: 200
+  adversary:
+    enabled: true
+    n_targets: 5
+    attractiveness: 0.5
+    service_quality: 0.85
+    adaptive_cards: true
+  selection:
+    kind: reputation
+  defense:
+    kind: proposed
+
+grid:
+  adversary.n_sybils: [100, 200, 400, 800]
+  defense.params.n_anchors: [1, 2, 3, 4]
+
+seeds: [0, 1, 2, 3, 4]

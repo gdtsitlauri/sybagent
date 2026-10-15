@@ -1,0 +1,8 @@
+{
+  "unique_real_cards": 1217,
+  "honest": 200,
+  "tasks": 300,
+  "mean_cos_task_vs_source_card": 0.6597262776663625,
+  "mean_cos_adaptive_vs_task": 0.7718147856086144,
+  "mean_best_honest_cos_per_task": 0.7083100332783993
+}

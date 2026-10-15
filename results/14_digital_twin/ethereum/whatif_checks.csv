@@ -1,0 +1,11 @@
+tag,agents,raters_needed,topk_sybil_share_with_cost,topk_sybil_share_one_less
+trust,788,2,1.0,0.0
+verification:structural,559,2,1.0,0.0
+verification:checks,460,2,1.0,0.0
+liveness,414,3,1.0,0.6
+quality,346,5,1.0,0.8
+review:submission,320,2,1.0,0.0
+responseTime,172,3,1.0,0.8
+reachable,131,4,1.0,0.8
+starred,57,28,1.0,0.8
+review,21,2,1.0,0.0

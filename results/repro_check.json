@@ -1,0 +1,122 @@
+[
+  {
+    "study": "1_attack",
+    "run": 5,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "1_attack",
+    "run": 300,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "2_defenses",
+    "run": 0,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "2_defenses",
+    "run": 59,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "2_defenses",
+    "run": 299,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "3_anchor_bound",
+    "run": 41,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "4_adaptive_attacks",
+    "run": 7,
+    "columns_compared": 13,
+    "identical": true
+  },
+  {
+    "study": "5_second_opinions",
+    "run": 37,
+    "columns_compared": 19,
+    "identical": true
+  },
+  {
+    "study": "5_second_opinions",
+    "run": 230,
+    "columns_compared": 19,
+    "identical": true
+  },
+  {
+    "study": "5b_robust_second_opinions/baselines",
+    "run": 13,
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "5b_robust_second_opinions/main",
+    "run": 50,
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "5b_robust_second_opinions/main",
+    "run": 119,
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "12_pareto",
+    "run": 77,
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "12_pareto",
+    "run": 512,
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "11_strategic_attacker",
+    "run": "B50_u0.3_aa1_majority_lie1.0_s0",
+    "columns_compared": 21,
+    "identical": true
+  },
+  {
+    "study": "11_strategic_attacker",
+    "run": "B200_u0.6_aa0_unanimous_budget_s2",
+    "columns_compared": 23,
+    "identical": true
+  },
+  {
+    "study": "11_strategic_attacker",
+    "run": "B200_u0.3_aa0_majority_rl_s1",
+    "columns_compared": 23,
+    "identical": true
+  },
+  {
+    "study": "20_shared_defense",
+    "run": "B50_alerts+committee_lie1.0_s0",
+    "columns_compared": 4,
+    "identical": true
+  },
+  {
+    "study": "20_shared_defense",
+    "run": "B100_committee_budget_s1",
+    "columns_compared": 4,
+    "identical": true
+  },
+  {
+    "study": "22_verifiable",
+    "run": "B200_v0.05_ban+rep_sleeper_s1",
+    "columns_compared": 4,
+    "identical": true
+  }
+]

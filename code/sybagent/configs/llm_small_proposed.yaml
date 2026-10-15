@@ -1,0 +1,29 @@
+seed: 0
+rounds: 25
+tasks_per_agent_per_round: 1
+output_dir: results/llm_small_proposed
+
+network:
+  n_honest: 20
+  capability_dim: 16
+  max_neighbors: 4
+  candidates_per_query: 8
+  topk_select: 2
+
+adversary:
+  enabled: true
+  n_sybils: 10
+  attractiveness: 0.5
+  service_quality: 0.85
+  n_targets: 3
+
+selection:
+  kind: llm
+  llm_model: qwen2.5:3b
+  llm_url: http://localhost:11434
+  llm_timeout_s: 180.0
+
+defense:
+  kind: proposed
+  params:
+    n_anchors: 2
